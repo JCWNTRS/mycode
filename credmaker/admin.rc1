@@ -1,7 +1,7 @@
-export OS_AUTH_URL=http://controller:35357/v2/
+export OS_AUTH_URL=authurl
 export OS_IDENTITY_API_VERSION=3
-export OS_PROJECT_NAME=myproject1
-export OS_PROJECT_DOMAIN_NAME=default
-export OS_USERNAME=alice
-export OS_USER_DOMAIN_NAME=default
-export OS_PASSWORD=alta1
+export OS_PROJECT_NAME=projectname
+export OS_PROJECT_DOMAIN_NAME=domainname
+export OS_USERNAME=username
+export OS_USER_DOMAIN_NAME=userdomainname
+export OS_PASSWORD=password
