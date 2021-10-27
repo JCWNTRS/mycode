@@ -15,6 +15,4 @@ while round < 5 and machine not in comp_years:
         machine = (comp_years.get('85-93'))
         print (machine)
         print ("This is a machine with only 2 letters in its name, made by Atari over the years 85-93")
-        guess = (input("What is your guess? ")
-        #if guess == machine:
-        #print("Correct")
+        #guess = (input("What is your guess? ")
