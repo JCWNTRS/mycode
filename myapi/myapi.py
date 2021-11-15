@@ -12,7 +12,7 @@ print(f"Getting you {num} random activities")
 for n in range(1, num + 1):
     activity = rq.get(URL).json()
     print(activity["activity"])
-    with open('/home/student/mycode/myapi/activities.txt','a') as file:
+    with open('/Users/jonathan/Documents/Dev/Python/mycode/myapi/activities.txt','a') as file:
         file.write(activity["activity"] + "\n")
 #Tell user the activities have been written to a file. 
 print("I've also written them to activities.txt, so you can look at them later")
